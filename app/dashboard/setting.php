@@ -38,9 +38,9 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="media align-items-center">
-                                            <div class="avatar avatar-image  m-h-10 m-r-15" style="height: 80px; width: 80px">
+                                            <!-- <div class="avatar avatar-image  m-h-10 m-r-15" style="height: 80px; width: 80px">
                                                 <img src="/assets//images/avatars/thumb-3.jpg" alt="">
-                                            </div>
+                                            </div> -->
                                             <div class="m-l-20 m-r-20">
                                                 <h5 class="m-b-5 font-size-18">Change Avatar</h5>
                                                 <p class="opacity-07 font-size-13 m-b-0">

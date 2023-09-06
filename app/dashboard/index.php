@@ -9,8 +9,6 @@
             <?php  include_once('includes/header.php');  ?>
             <?php  include_once('includes/nav.php');  ?>
 
-
-
             <!-- Page Container START -->
             <div class="page-container">
                 
@@ -19,16 +17,16 @@
                     <div class="page-header no-gutters">
                         <div class="d-md-flex align-items-md-center justify-content-between">
                             <div class="media m-v-10 align-items-center">
-                                <div class="avatar avatar-image avatar-lg">
+                                <!-- <div class="avatar avatar-image avatar-lg">
                                     <img src="/assets//images/avatars/thumb-3.jpg" alt="">
-                                </div>
+                                </div> -->
                                 <div class="media-body m-l-15">
-                                    <h4 class="m-b-0">Welcome back, Nichols!</h4>
+                                    <h4 class="m-b-0">Hey, Matthijs!</h4>
                                     <span class="text-gray">Project Manager</span>
                                 </div>
                             </div>
                             <div class="d-md-flex align-items-center d-none">
-                                <div class="media align-items-center m-r-40 m-v-5">
+                                <!-- <div class="media align-items-center m-r-40 m-v-5">
                                     <div class="font-size-27">
                                         <i class="text-primary anticon anticon-profile"></i>
                                     </div>
@@ -36,14 +34,16 @@
                                         <h2 class="m-b-0 m-r-5">78</h2>
                                         <span class="text-gray">Tasks</span>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="media align-items-center m-r-40 m-v-5">
                                     <div class="font-size-27">
                                         <i class="text-success  anticon anticon-appstore"></i>
                                     </div>
                                     <div class="d-flex align-items-center m-l-10">
                                         <h2 class="m-b-0 m-r-5">21</h2>
-                                        <span class="text-gray">Projects</span>
+                                        <span class="text-gray">
+                                            Reqruitments
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="media align-items-center m-v-5">
@@ -52,7 +52,9 @@
                                     </div>
                                     <div class="d-flex align-items-center m-l-10">
                                         <h2 class="m-b-0 m-r-5">39</h2>
-                                        <span class="text-gray">Members</span>
+                                        <span class="text-gray">
+                                            Aanmeldingen
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -60,11 +62,13 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-8">
-                            <div class="card">
+                        <div class="card">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <h5 class="mb-0">Project Completion </h5>
-                                        <div class="dropdown dropdown-animated scale-left">
+                                        <h5 class="mb-0">
+                                            Aanmeldingen deze maand
+                                        </h5>
+                                        <!-- <div class="dropdown dropdown-animated scale-left">
                                             <a class="text-gray font-size-18" href="javascript:void(0);" data-toggle="dropdown">
                                                 <i class="anticon anticon-ellipsis"></i>
                                             </a>
@@ -86,27 +90,198 @@
                                                     <span class="m-l-10">Refresh</span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <div class="d-md-flex justify-content-space m-t-50">
-                                        <div class="completion-chart p-r-10">
+                                    <div class="d-md-flex justify-content-space m-t-50" style="height: 300px;">
+                                        <!-- <div class="completion-chart p-r-10"> -->
                                             <canvas class="chart" id="completion-chart"></canvas>
-                                        </div>
-                                        <div class="calendar-card border-0">
+                                        <!-- </div> -->
+                                        <!-- <div class="calendar-card border-0">
                                             <div data-provide="datepicker-inline"></div>
-                                        </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="mb-0">
+                                            Reqruitment campagnes
+                                        </h5>
+                                        <!-- <div>
+                                            <a href="" class="btn btn-default btn-sm">View All</a> 
+                                        </div> -->
+                                    </div>
+                                    <div class="table-responsive m-t-30" onclick="window.location.href = '/dashboard/recruitments.php';">
+                                        <style>
+                                            td{
+                                                cursor: pointer;
+                                            }
+                                        </style>
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Project</th>
+                                                    <th>Target</th>
+                                                    <th>Status</th>
+                                                    <th>Progress</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="media align-items-center">
+                                                            <!-- <div class="avatar avatar-image rounded">
+                                                                <img src="/assets//images/others/thumb-1.jpg" alt="">
+                                                            </div> -->
+                                                            <div class="m-l-10">
+                                                                <span>Zelfstandig werkend kok</span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span>31</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge badge-pill badge-cyan font-size-12">Ready</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="progress progress-sm w-100 m-b-0">
+                                                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%"></div>
+                                                            </div>
+                                                            <div class="m-l-10">
+                                                                <i class="anticon anticon-check-o text-success"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="media align-items-center">
+                                                            <!-- <div class="avatar avatar-image rounded">
+                                                                <img src="/assets//images/others/thumb-2.jpg" alt="">
+                                                            </div> -->
+                                                            <div class="m-l-10">
+                                                                <span>Fulltime x</span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span>56</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge badge-pill badge-blue font-size-12">In Progress</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="progress progress-sm w-100 m-b-0">
+                                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 76%"></div>
+                                                            </div>
+                                                            <div class="m-l-10">
+                                                                76%
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="media align-items-center">
+                                                            <!-- <div class="avatar avatar-image rounded">
+                                                                <img src="/assets//images/others/thumb-3.jpg" alt="">
+                                                            </div> -->
+                                                            <div class="m-l-10">
+                                                                <span>Parttime</span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span>21</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge badge-pill badge-blue font-size-12">In Progress</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="progress progress-sm w-100 m-b-0">
+                                                                <div class="progress-bar" role="progressbar" style="width: 87%"></div>
+                                                            </div>
+                                                            <div class="m-l-10">
+                                                                87%
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="media align-items-center">
+                                                            <!-- <div class="avatar avatar-image rounded">
+                                                                <img src="/assets//images/others/thumb-5.jpg" alt="">
+                                                            </div> -->
+                                                            <div class="m-l-10">
+                                                                <span>Fortier Studio</span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span>68</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge badge-pill badge-blue font-size-12">In Progress</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="progress progress-sm w-100 m-b-0">
+                                                                <div class="progress-bar" role="progressbar" style="width: 68%"></div>
+                                                            </div>
+                                                            <div class="m-l-10">
+                                                                68%
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="media align-items-center">
+                                                            <!-- <div class="avatar avatar-image rounded">
+                                                                <img src="/assets//images/others/thumb-6.jpg" alt="">
+                                                            </div> -->
+                                                            <div class="m-l-10">
+                                                                <span>Indi Wheel Web</span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span>165</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge badge-pill badge-red font-size-12">Behind</span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="progress progress-sm w-100 m-b-0">
+                                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 28%"></div>
+                                                            </div>
+                                                            <div class="m-l-10">
+                                                                <i class="anticon anticon-close-o text-danger"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="card">
+                        <div class="card">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
                                         <h5 class="mb-0">Team Members</h5>
-                                        <div>
+                                        <!-- <div>
                                             <a href="" class="btn btn-default btn-sm">View All</a> 
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="m-t-30">
                                         <div class="avatar-string m-l-5">
@@ -157,450 +332,10 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <h5 class="mb-0">Upcoming Meeting</h5>
-                                        <div>
-                                            <a href="" class="btn btn-default btn-sm">View All</a> 
-                                        </div>
-                                    </div>
-                                    <div class="m-t-30">
-                                        <div class="d-flex m-b-20">
-                                            <div class="text-center">
-                                                <div class="avatar avatar-text avatar-blue avatar-lg rounded">
-                                                    <span class="font-size-22">17</span>
-                                                </div>
-                                            </div>
-                                            <div class="m-l-20">
-                                                <h5 class="m-b-0">
-                                                    <a class="text-dark">UI Discussion</a>
-                                                </h5>
-                                                <p class="m-b-0">Execute core that as result.</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex m-b-20">
-                                            <div class="text-center">
-                                                <div class="avatar avatar-text avatar-cyan avatar-lg rounded">
-                                                    <span class="font-size-22">21</span>
-                                                </div>
-                                            </div>
-                                            <div class="m-l-20">
-                                                <h5 class="m-b-0">
-                                                    <a class="text-dark">Project Schdule</a>
-                                                </h5>
-                                                <p class="m-b-0">Special cloth alert always.</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="text-center">
-                                                <div class="avatar avatar-text avatar-gold avatar-lg rounded">
-                                                    <span class="font-size-22">25</span>
-                                                </div>
-                                            </div>
-                                            <div class="m-l-20">
-                                                <h5 class="m-b-0">
-                                                    <a class="text-dark">Design Discussion</a>
-                                                </h5>
-                                                <p class="m-b-0">Let us wax poetic about.</p>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <h5 class="mb-0">Upcoming Meeting</h5>
-                                        <div>
-                                            <a href="" class="btn btn-default btn-sm">View All</a> 
-                                        </div>
-                                    </div>
-                                    <div class="table-responsive m-t-30">
-                                        <table class="table table-hover">
-                                            <thead>
-                                                <tr>
-                                                    <th>Project</th>
-                                                    <th>Tasks</th>
-                                                    <th>Members</th>
-                                                    <th>Progress</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <div class="media align-items-center">
-                                                            <div class="avatar avatar-image rounded">
-                                                                <img src="/assets//images/others/thumb-1.jpg" alt="">
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                <span>Mind Cog App</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span>31</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-cyan font-size-12">Ready</span>
-                                                    </td>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="progress progress-sm w-100 m-b-0">
-                                                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%"></div>
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                <i class="anticon anticon-check-o text-success"></i>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="media align-items-center">
-                                                            <div class="avatar avatar-image rounded">
-                                                                <img src="/assets//images/others/thumb-2.jpg" alt="">
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                <span>Mill Real Estate</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span>56</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-blue font-size-12">In Progress</span>
-                                                    </td>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="progress progress-sm w-100 m-b-0">
-                                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 76%"></div>
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                76%
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="media align-items-center">
-                                                            <div class="avatar avatar-image rounded">
-                                                                <img src="/assets//images/others/thumb-3.jpg" alt="">
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                <span>Eastern Sack</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span>21</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-blue font-size-12">In Progress</span>
-                                                    </td>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="progress progress-sm w-100 m-b-0">
-                                                                <div class="progress-bar" role="progressbar" style="width: 87%"></div>
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                87%
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="media align-items-center">
-                                                            <div class="avatar avatar-image rounded">
-                                                                <img src="/assets//images/others/thumb-5.jpg" alt="">
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                <span>Fortier Studio</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span>68</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-blue font-size-12">In Progress</span>
-                                                    </td>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="progress progress-sm w-100 m-b-0">
-                                                                <div class="progress-bar" role="progressbar" style="width: 68%"></div>
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                68%
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="media align-items-center">
-                                                            <div class="avatar avatar-image rounded">
-                                                                <img src="/assets//images/others/thumb-6.jpg" alt="">
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                <span>Indi Wheel Web</span>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span>165</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-red font-size-12">Behind</span>
-                                                    </td>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="progress progress-sm w-100 m-b-0">
-                                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 28%"></div>
-                                                            </div>
-                                                            <div class="m-l-10">
-                                                                <i class="anticon anticon-close-o text-danger"></i>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <h5 class="mb-0">Assigned tasks</h5>
-                                        <div>
-                                            <a href="" class="btn btn-default btn-sm">View All</a> 
-                                        </div>
-                                    </div>
-                                    <div class="table-responsive m-t-30">
-                                        <table class="table table-hover">
-                                            <thead>
-                                                <tr>
-                                                    <th>Asignee</th>
-                                                    <th>Status</th>
-                                                    <th>Due Date</th>
-                                                    <th>Tasks</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="avatar avatar-image">
-                                                                <img src="/assets//images/avatars/thumb-1.jpg" alt="">
-                                                            </div>
-                                                            <span class="m-l-10">Erin Gonzales</span>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-gold font-size-12">Medium</span>
-                                                    </td>
-                                                    <td>24 Mar, 2019</td>
-                                                    <td>
-                                                        <h5 class="m-b-0">Define users and workflow</h5>
-                                                        <p class="m-b-0 font-size-13">A cheeseburger is more than sandwich</p>
-                                                    </td>
-                                                    <td>
-                                                        <div class="dropdown dropdown-animated scale-left">
-                                                                <a class="text-gray font-size-18" href="javascript:void(0);" data-toggle="dropdown">
-                                                                    <i class="anticon anticon-ellipsis"></i>
-                                                                </a>
-                                                            <div class="dropdown-menu">
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-edit"></i>
-                                                                    <span class="m-l-10">Edit</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-delete"></i>
-                                                                    <span class="m-l-10">Delete</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-check-square"></i>
-                                                                    <span class="m-l-10">Mark as Done</span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="avatar avatar-image">
-                                                                <img src="/assets//images/avatars/thumb-4.jpg" alt="">
-                                                            </div>
-                                                            <span class="m-l-10">Virgil Gonzales</span>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-gold font-size-12">Medium</span>
-                                                    </td>
-                                                    <td>27 Mar, 2019</td>
-                                                    <td>
-                                                        <h5 class="m-b-0">Change interface</h5>
-                                                        <p class="m-b-0 font-size-13">Efficiently unleash cross-media information</p>
-                                                    </td>
-                                                    <td>
-                                                        <div class="dropdown dropdown-animated scale-left">
-                                                                <a class="text-gray font-size-18" href="javascript:void(0);" data-toggle="dropdown">
-                                                                    <i class="anticon anticon-ellipsis"></i>
-                                                                </a>
-                                                            <div class="dropdown-menu">
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-edit"></i>
-                                                                    <span class="m-l-10">Edit</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-delete"></i>
-                                                                    <span class="m-l-10">Delete</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-check-square"></i>
-                                                                    <span class="m-l-10">Mark as Done</span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="avatar avatar-image">
-                                                                <img src="/assets//images/avatars/thumb-5.jpg" alt="">
-                                                            </div>
-                                                            <span class="m-l-10">Nicole Wyne</span>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-cyan font-size-12">Low</span>
-                                                    </td>
-                                                    <td>29 Mar, 2019</td>
-                                                    <td>
-                                                        <h5 class="m-b-0">Create databases</h5>
-                                                        <p class="m-b-0 font-size-13">Here's the story of a man named Brady</p>
-                                                    </td>
-                                                    <td>
-                                                        <div class="dropdown dropdown-animated scale-left">
-                                                                <a class="text-gray font-size-18" href="javascript:void(0);" data-toggle="dropdown">
-                                                                    <i class="anticon anticon-ellipsis"></i>
-                                                                </a>
-                                                            <div class="dropdown-menu">
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-edit"></i>
-                                                                    <span class="m-l-10">Edit</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-delete"></i>
-                                                                    <span class="m-l-10">Delete</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-check-square"></i>
-                                                                    <span class="m-l-10">Mark as Done</span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="avatar avatar-image">
-                                                                <img src="/assets//images/avatars/thumb-2.jpg" alt="">
-                                                            </div>
-                                                            <span class="m-l-10">Darryl Day</span>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-red font-size-12">High</span>
-                                                    </td>
-                                                    <td>2 Apr, 2019</td>
-                                                    <td>
-                                                        <h5 class="m-b-0">Verify connectivity</h5>
-                                                        <p class="m-b-0 font-size-13">Bugger bag egg's old boy willy jolly</p>
-                                                    </td>
-                                                    <td>
-                                                        <div class="dropdown dropdown-animated scale-left">
-                                                                <a class="text-gray font-size-18" href="javascript:void(0);" data-toggle="dropdown">
-                                                                    <i class="anticon anticon-ellipsis"></i>
-                                                                </a>
-                                                            <div class="dropdown-menu">
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-edit"></i>
-                                                                    <span class="m-l-10">Edit</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-delete"></i>
-                                                                    <span class="m-l-10">Delete</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-check-square"></i>
-                                                                    <span class="m-l-10">Mark as Done</span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <div class="d-flex align-items-center">
-                                                            <div class="avatar avatar-image">
-                                                                <img src="/assets//images/avatars/thumb-6.jpg" alt="">
-                                                            </div>
-                                                            <span class="m-l-10">Riley Newman</span>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <span class="badge badge-pill badge-gold font-size-12">Medium</span>
-                                                    </td>
-                                                    <td>7 Apr, 2019</td>
-                                                    <td>
-                                                        <h5 class="m-b-0">Prepare implementation</h5>
-                                                        <p class="m-b-0 font-size-13">Drop in axle roll-in rail slide</p>
-                                                    </td>
-                                                    <td>
-                                                        <div class="dropdown dropdown-animated scale-left">
-                                                                <a class="text-gray font-size-18" href="javascript:void(0);" data-toggle="dropdown">
-                                                                    <i class="anticon anticon-ellipsis"></i>
-                                                                </a>
-                                                            <div class="dropdown-menu">
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-edit"></i>
-                                                                    <span class="m-l-10">Edit</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-delete"></i>
-                                                                    <span class="m-l-10">Delete</span>
-                                                                </button>
-                                                                <button class="dropdown-item" type="button">
-                                                                    <i class="anticon anticon-check-square"></i>
-                                                                    <span class="m-l-10">Mark as Done</span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center">
                                         <h5 class="mb-0">Activity</h5>
-                                        <div>
+                                        <!-- <div>
                                             <a href="" class="btn btn-default btn-sm">View All</a> 
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="m-t-40">
                                         <ul class="timeline">

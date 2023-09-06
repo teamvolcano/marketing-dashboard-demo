@@ -24,9 +24,9 @@
                                 <div class="chat-user-list">
                                     <a class="chat-list-item p-h-25" href="javascript:void(0);">
                                         <div class="media align-items-center">
-                                            <div class="avatar avatar-image">
+                                            <!-- <div class="avatar avatar-image">
                                                 <img src="/assets//images/avatars/thumb-1.jpg" alt="">
-                                            </div>
+                                            </div> -->
                                             <div class="p-l-15">
                                                 <h5 class="m-b-0">Erin Gonzales</h5>
                                                 <p class="msg-overflow m-b-0 text-muted font-size-13">
@@ -37,9 +37,9 @@
                                     </a>
                                     <a class="chat-list-item p-h-25" href="javascript:void(0);">
                                         <div class="media align-items-center">
-                                            <div class="avatar avatar-image">
+                                            <!-- <div class="avatar avatar-image">
                                                 <img src="/assets//images/avatars/thumb-2.jpg" alt="">
-                                            </div>
+                                            </div> -->
                                             <div class="p-l-15">
                                                 <h5 class="m-b-0">Darryl Day</h5>
                                                 <p class="msg-overflow m-b-0 text-muted font-size-13">
@@ -50,9 +50,9 @@
                                     </a>
                                     <a class="chat-list-item p-h-25" href="javascript:void(0);">
                                         <div class="media align-items-center">
-                                            <div class="avatar avatar-image">
+                                            <!-- <div class="avatar avatar-image">
                                                 <img src="/assets//images/avatars/thumb-3.jpg" alt="">
-                                            </div>
+                                            </div> -->
                                             <div class="p-l-15">
                                                 <h5 class="m-b-0">Marshall Nichols</h5>
                                                 <p class="msg-overflow m-b-0 text-muted font-size-13">
@@ -63,9 +63,9 @@
                                     </a>
                                     <a class="chat-list-item p-h-25" href="javascript:void(0);">
                                         <div class="media align-items-center">
-                                            <div class="avatar avatar-image">
+                                            <!-- <div class="avatar avatar-image">
                                                 <img src="/assets//images/avatars/thumb-4.jpg" alt="">
-                                            </div>
+                                            </div> -->
                                             <div class="p-l-15">
                                                 <h5 class="m-b-0">Virgil Gonzales</h5>
                                                 <p class="msg-overflow m-b-0 text-muted font-size-13">
@@ -76,9 +76,9 @@
                                     </a>
                                     <a class="chat-list-item p-h-25" href="javascript:void(0);">
                                         <div class="media align-items-center">
-                                            <div class="avatar avatar-image">
+                                            <!-- <div class="avatar avatar-image">
                                                 <img src="/assets//images/avatars/thumb-7.jpg" alt="">
-                                            </div>
+                                            </div> -->
                                             <div class="p-l-15">
                                                 <h5 class="m-b-0">Pamela Wanda</h5>
                                                 <p class="msg-overflow m-b-0 text-muted font-size-13">
@@ -97,9 +97,9 @@
                                                 <a href="javascript:void(0);" class="chat-close m-r-20 d-md-none d-block text-dark font-size-18 m-t-5" >
                                                     <i class="anticon anticon-left-circle"></i>
                                                 </a>
-                                                <div class="avatar avatar-image">
+                                                <!-- <div class="avatar avatar-image">
                                                     <img src="/assets//images/avatars/thumb-1.jpg" alt="">
-                                                </div>
+                                                </div> -->
                                                 <div class="p-l-15">
                                                     <h6 class="m-b-0">Erin Gonzales</h6>
                                                     <p class="m-b-0 text-muted font-size-13 m-b-0">
@@ -125,9 +125,9 @@
                                             </div>
                                             <div class="msg msg-recipient">
                                                 <div class="m-r-10">
-                                                    <div class="avatar avatar-image">
+                                                    <!-- <div class="avatar avatar-image">
                                                         <img src="/assets//images/avatars/thumb-1.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <div class="bubble">
                                                     <div class="bubble-wrapper">
@@ -144,9 +144,9 @@
                                             </div>
                                             <div class="msg msg-recipient">
                                                 <div class="m-r-10">
-                                                    <div class="avatar avatar-image">
+                                                    <!-- <div class="avatar avatar-image">
                                                         <img src="/assets//images/avatars/thumb-1.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <div class="bubble">
                                                     <div class="bubble-wrapper p-5">

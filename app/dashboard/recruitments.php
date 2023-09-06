@@ -44,20 +44,25 @@
                             </div>
                         </div>
                     </div>
+                    <style>
+                        .container-fluid{
+                            cursor: pointer;
+                        }
+                    </style>
                     <div class="container-fluid">
-                        <div id="card-view">
+                        <div id="card-view" onclick="window.location.href='/dashboard/candidates.php'">
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
+                                                    <!-- <div class="avatar avatar-image rounded">
                                                         <img src="/assets//images/others/thumb-1.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                     <div class="m-l-10">
-                                                        <h5 class="m-b-0">Mind Cog App</h5>
-                                                        <span class="text-muted font-size-13">31 Tasks</span>
+                                                        <h5 class="m-b-0">Zelfstandig werkend kok</h5>
+                                                        <span class="text-muted font-size-13">31 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -117,12 +122,12 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
+                                                    <!-- <div class="avatar avatar-image rounded">
                                                         <img src="/assets//images/others/thumb-2.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                     <div class="m-l-10">
-                                                        <h5 class="m-b-0">Mill Real Estate</h5>
-                                                        <span class="text-muted font-size-13">56 Tasks</span>
+                                                        <h5 class="m-b-0">Fulltime x</h5>
+                                                        <span class="text-muted font-size-13">56 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -187,12 +192,12 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
+                                                    <!-- <div class="avatar avatar-image rounded">
                                                         <img src="/assets//images/others/thumb-3.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                     <div class="m-l-10">
-                                                        <h5 class="m-b-0">Eastern Sack</h5>
-                                                        <span class="text-muted font-size-13">21 Tasks</span>
+                                                        <h5 class="m-b-0">Parttime y</h5>
+                                                        <span class="text-muted font-size-13">21 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -257,12 +262,12 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
+                                                    <!-- <div class="avatar avatar-image rounded">
                                                         <img src="/assets//images/others/thumb-4.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                     <div class="m-l-10">
                                                         <h5 class="m-b-0">Good Beat</h5>
-                                                        <span class="text-muted font-size-13">38 Tasks</span>
+                                                        <span class="text-muted font-size-13">38 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -322,12 +327,12 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
-                                                        <img src="/assets//images/others/thumb-5.jpg" alt="">
-                                                    </div>
+                                                    <!-- <div class="avatar avatar-image rounded">
+                                                    <img src="/assets//images/others/thumb-5.jpg" alt="">
+                                                    </div> -->
                                                     <div class="m-l-10">
                                                         <h5 class="m-b-0">Fortier Studio</h5>
-                                                        <span class="text-muted font-size-13">68 Tasks</span>
+                                                        <span class="text-muted font-size-13">68 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -387,12 +392,12 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
+                                                    <!-- <div class="avatar avatar-image rounded">
                                                         <img src="/assets//images/others/thumb-6.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                     <div class="m-l-10">
                                                         <h5 class="m-b-0">Indi Wheel Web</h5>
-                                                        <span class="text-muted font-size-13">68 Tasks</span>
+                                                        <span class="text-muted font-size-13">68 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -457,12 +462,12 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
+                                                    <!-- <div class="avatar avatar-image rounded">
                                                         <img src="/assets//images/others/thumb-7.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                     <div class="m-l-10">
                                                         <h5 class="m-b-0">Austin Lab</h5>
-                                                        <span class="text-muted font-size-13">90 Tasks</span>
+                                                        <span class="text-muted font-size-13">90 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -522,12 +527,12 @@
                                         <div class="card-body">
                                             <div class="d-flex justify-content-between">
                                                 <div class="media">
-                                                    <div class="avatar avatar-image rounded">
+                                                    <!-- <div class="avatar avatar-image rounded">
                                                         <img src="/assets//images/others/thumb-8.jpg" alt="">
-                                                    </div>
+                                                    </div> -->
                                                     <div class="m-l-10">
                                                         <h5 class="m-b-0">Moody Agency</h5>
-                                                        <span class="text-muted font-size-13">165 Tasks</span>
+                                                        <span class="text-muted font-size-13">165 Aanmeldingen</span>
                                                     </div>
                                                 </div>
                                                 <div class="dropdown dropdown-animated scale-left">
@@ -589,34 +594,33 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card d-none" id="list-view">
+                        <div class="card d-none" id="list-view" onclick="window.location.href='/dashboard/candidates.php'">
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
                                             <tr>
                                                 <th>Project</th>
-                                                <th>Tasks</th>
+                                                <th>Test</th>
                                                 <th>Members</th>
                                                 <th>Progress</th>
-                                                <th>Status</th>
-                                                <th></th>
+                                                <!-- <th></th> -->
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-1.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
-                                                            <h5 class="m-b-0">Mind Cog App</h5>
+                                                            <h5 class="m-b-0">Zelfstandig werkend kok</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>31 Tasks</span>
+                                                    <span>31 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
@@ -669,16 +673,16 @@
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-2.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
-                                                            <h5 class="m-b-0">Mill Real Estate</h5>
+                                                            <h5 class="m-b-0">Fulltime x</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>56 Tasks</span>
+                                                    <span>56 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
@@ -736,16 +740,16 @@
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-3.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
-                                                            <h5 class="m-b-0">Eastern Sack</h5>
+                                                            <h5 class="m-b-0">Parttime y</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>21 Tasks</span>
+                                                    <span>21 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
@@ -803,16 +807,16 @@
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-4.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
                                                             <h5 class="m-b-0">Good Beat</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>38 Tasks</span>
+                                                    <span>38 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
@@ -865,16 +869,16 @@
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-5.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
                                                             <h5 class="m-b-0">Fortier Studio</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>68 Tasks</span>
+                                                    <span>68 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
@@ -927,16 +931,16 @@
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-6.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
                                                             <h5 class="m-b-0">Indi Wheel Web</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>68 Tasks</span>
+                                                    <span>68 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
@@ -994,16 +998,16 @@
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-7.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
                                                             <h5 class="m-b-0">Austin Lab</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>90 Tasks</span>
+                                                    <span>90 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">
@@ -1056,16 +1060,16 @@
                                             <tr>
                                                 <td>
                                                     <div class="media align-items-center">
-                                                        <div class="avatar avatar-image rounded">
+                                                        <!-- <div class="avatar avatar-image rounded">
                                                             <img src="/assets//images/others/thumb-8.jpg" alt="">
-                                                        </div>
+                                                        </div> -->
                                                         <div class="m-l-10">
                                                             <h5 class="m-b-0">Moody Agency</h5>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <span>165 Tasks</span>
+                                                    <span>165 Aanmeldingen</span>
                                                 </td>
                                                 <td>
                                                     <div class="d-flex align-items-center">

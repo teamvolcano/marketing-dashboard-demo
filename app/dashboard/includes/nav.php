@@ -41,12 +41,21 @@
                 </a>
             </li>
 
-            <li class="<?= $url == '/dashboard/candidates.php' ? 'active' : '' ?>">
+            <li class="<?= $url == '/dashboard/candidates.php' || $url == '/dashboard/canidate.php' ? 'active' : '' ?>">
                 <a class="active" href="/dashboard/candidates.php">
                     <span class="icon-holder">
                         <i class="anticon anticon-contacts"></i>
                     </span>
                     <span class="title">Canidates</span>
+                </a>
+            </li>
+
+            <li class="<?= $url == '/dashboard/chat.php' ? 'active' : '' ?>">
+                <a class="active" href="/dashboard/chat.php">
+                    <span class="icon-holder">
+                        <i class="anticon anticon-phone"></i>
+                    </span>
+                    <span class="title">SMS chat</span>
                 </a>
             </li>
 
